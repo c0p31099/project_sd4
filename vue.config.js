@@ -1,5 +1,5 @@
 module.exports = {
-   publicPath: process.env.NODE_ENV === 'production'
-     ? '/dist/'
-     : '/'
- }
+  publicPath: '/github-pages-example-with-vue-router',
+  outputDir: 'docs',
+  filenameHashing: false,
+}
