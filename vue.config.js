@@ -1,5 +1,5 @@
 module.exports = {
-  publicPath: '/github-pages-example-with-vue-router',
+  publicPath: './',
   outputDir: 'docs',
   filenameHashing: false,
 }
