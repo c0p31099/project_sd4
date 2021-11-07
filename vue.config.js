@@ -2,5 +2,5 @@ module.exports = {
   outputDir: 'docs',
   filenameHashing: false,
   assetsDir: './',
-  publicPath: './'
+  publicPath: '/project_sd4'
 }
