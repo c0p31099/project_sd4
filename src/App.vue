@@ -50,8 +50,13 @@ body{
 }
 
 .scafold-wrapper {
-  min-height: 100vh; /* 要素の高さの最小値を指定 vhはviewport(表示領域) heightの略 */
+  height: 100vh;
   flex:1;
+  overflow-y: scroll;
+}
+
+.scafold-wrapper::-webkit-scrollbar {
+  display:none;
 }
 
 .width-limit{
